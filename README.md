@@ -1,3 +1,17 @@
+# Intro to Ruby
+
+### Running a ruby program in the console or in 'irb'
+
+#### *Regular console example*
+
+To run a ruby ruby program on your computer all you need to do is type ``ruby path/to/your/ruby/program.rb``. If you want to minimize typing you can first change into the directory that the file is in by typing ``cd path/to/directory`` and then you can just type ``ruby program_name.rb``
+
+#### *irb example*
+
+To test a bit of ruby code anywhere on your computer just type ``irb`` in the console. This will open up an interactive ruby environment where you can write any ruby code that you desire.
+
+> Note that any variables that you declare in your 'irb' session will only be available to that session. Once you type ``quit`` to exit the 'irb' session all of your declared variables will be discarded
+
 # Learning examples and explanations
 ``Jules, Ted, Ashley, Frank``
 
