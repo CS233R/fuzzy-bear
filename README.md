@@ -83,7 +83,7 @@ String interpolation allows for a variable to be entered into a string, provided
     ```
 Since we are using the double quotes, the name the user types in will be in the string. Using ' ', however, will give a different result:
 
- ```ruby
+```ruby
 puts "Hello, what is your name ?"
 name = gets
 puts 'Welcome #{name} '
