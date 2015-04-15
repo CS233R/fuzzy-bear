@@ -70,7 +70,9 @@ For string formatting you have three main options that are almost identical to w
 > ``.tr`` replaces every character passed in the first argument one-for-one with the replacement string.
 > ``.tr_s`` replaces every character passed in the first with only one of the replacement string
 
-##### String Interpolation
+---
+
+#### String Interpolation
 
 String interpolation allows for a variable to be entered into a string, provided the correct syntax is used. In order for interpolation to be used, you need to use " ". For example:
     
@@ -86,4 +88,4 @@ puts "Hello, what is your name ?"
 name = gets
 puts 'Welcome #{name} '
 ```
-The output you get from this will be Welcome #{name}. As you can see, it is important to use the double quotes if you want a variable to be included into a string.        
+> The output you get from this will be Welcome #{name}. As you can see, it is important to use the double quotes if you want a > variable to be included into a string.        
