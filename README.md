@@ -72,14 +72,14 @@ For string formatting you have three main options that are almost identical to w
 
 ##### String Interpolation
 
-String interpolation allows for a variable to be entered into a string, provided the correct syntax is used. In order for interpolation to be used, you need to use "". For example:
+String interpolation allows for a variable to be entered into a string, provided the correct syntax is used. In order for interpolation to be used, you need to use " ". For example:
     
     ```ruby
     puts "Hello, what is your name ?"
     name = gets
     puts "Welcome #{name} "
     ```
-Since we are using the double quotes, the name the user types in will be in the string. Using '', however, will give a different result:
+Since we are using the double quotes, the name the user types in will be in the string. Using ' ', however, will give a different result:
 
  ```ruby
 puts "Hello, what is your name ?"
