@@ -89,3 +89,8 @@ name = gets
 puts 'Welcome #{name} '
 ```
  The output you get from this will be Welcome #{name}. As you can see, it is important to use the double quotes if you want a  variable to be included into a string.        
+
+Another way in which interpolation can be used is either %Q or %q. Using these, %Q is the same as " ", while %q is the same as ' '. 
+
+> Using %Q or %q are preferable in large blocks of code because when you are enclosing your code, you
+> can use any delimiter to enclose it and not have to continuously use quotes.
