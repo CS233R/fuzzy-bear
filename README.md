@@ -88,4 +88,4 @@ puts "Hello, what is your name ?"
 name = gets
 puts 'Welcome #{name} '
 ```
-> The output you get from this will be Welcome #{name}. As you can see, it is important to use the double quotes if you want a > variable to be included into a string.        
+ The output you get from this will be Welcome #{name}. As you can see, it is important to use the double quotes if you want a  variable to be included into a string.        
