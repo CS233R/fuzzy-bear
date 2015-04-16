@@ -94,3 +94,25 @@ Another way in which interpolation can be used is either %Q or %q. Using these, 
 
 > Using %Q or %q are preferable in large blocks of code because when you are enclosing your code, you
 > can use any delimiter to enclose it and not have to continuously use quotes.
+
+
+#### Capitalize -> new_str
+
+When you use .capitalize at the end of a str it returns a copy of the string with the first character uppercased and the rest of the characters lowercased. 
+
+```ruby
+"hello".capitalize => "Hello"
+"HELLO".capitalize => "Hello"
+"123ABC".capitalize => "123abc"
+```
+
+#### Capitalize! -> str or nil
+
+When you use .capitalize! at the end of a str, it will also return a copy of the string with the first character uppercased and the rest of the characters lowercased. But it will return nil if there have been no changes made.
+
+```ruby
+a = "hello"
+a.capitalize! => "Hello"
+a => "Hello"
+a.capitalize! => nil
+```
