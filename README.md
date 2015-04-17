@@ -12,6 +12,40 @@ To test a bit of ruby code anywhere on your computer just type ``irb`` in the co
 
 > Note that any variables that you declare in your 'irb' session will only be available to that session. Once you type ``quit`` to exit the 'irb' session all of your declared variables will be discarded
 
+### Set and get variables
+
+#### *Setting variables*
+
+To declare and initialize a variable simply type ``variable_name = value``. If the value is a string then enclose the value in single quotes.
+
+*Example*
+```ruby
+name = 'Ted Hendricks'
+age = 22
+```
+
+#### *Getting user input*
+
+Use the **gets** method to store user input into a variable. To do this initialize the variable to the value *gets* ``variable_name = gets``.
+
+#### *Displaying variables*
+
+Use the **puts** method to display output.
+
+*Example*
+```ruby
+greeting = 'Hello '           (store a string variable)
+puts 'What is your name?'     (output)
+name = gets                   (requires input)
+puts greeting + name          (outputs both)
+```
+*Output*
+```
+What is your name?            (output)
+Ted Hendricks                 (input)
+Hello Ted Hendricks           (output)
+```
+
 # Learning examples and explanations
 ``Jules, Ted, Ashley, Frank``
 
